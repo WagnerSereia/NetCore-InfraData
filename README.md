@@ -13,6 +13,7 @@ Camadas do projeto
    FluentValidation: para implementação de Notification pattern 
 
 - Infra
+
   Data - implementação do Repository pattern 
    EntityFramewokCore: para persistencia nos repositorios
    Dapper: para consultas no repositorio
