@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>NetCore_InfraData.Data.CrossCutting</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+  </ItemGroup>
+
+ 
+  <ItemGroup>
+    <ProjectReference Include="..\NetCore-InfraData.Application\NetCore-InfraData.Application.csproj" />
+    <ProjectReference Include="..\NetCore-InfraData.Domain\NetCore-InfraData.Domain.csproj" />
+    <ProjectReference Include="..\NetCore-InfraData.Infra.Data\NetCore-InfraData.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
