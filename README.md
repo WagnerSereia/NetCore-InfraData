@@ -13,11 +13,11 @@ Camadas do projeto
    FluentValidation: para implementação de Notification pattern 
 
 - Infra
-- Data - implementação do Repository pattern 
+  Data - implementação do Repository pattern 
    EntityFramewokCore: para persistencia nos repositorios
    Dapper: para consultas no repositorio
    Mapeamento de entidades e repositorios
    Implementação do UnitOfWork pattern
 
-- CrossCutting
+  CrossCutting
    Implementação de injeção de dependencia nativa do NetCore
