@@ -40,6 +40,14 @@ namespace NetCore_InfraData.CrossCutting.IoC
             services.AddTransient<IPerguntaRepository, PerguntaRepository>();
             services.AddTransient<IRespostaRepository, RespostaRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+
+
+            //Entendendo o LifStyle da Ioc
+            services.AddTransient<ITesteTransient, TesteLifeStyleIoC>();
+            services.AddScoped<ITesteScoped, TesteLifeStyleIoC>();
+            services.AddSingleton<ITesteSingleton, TesteLifeStyleIoC>();
+            services.AddSingleton<ITesteSingletonInstance>(new TesteLifeStyleIoC(System.Guid.NewGuid()));
+            services.AddTransient<OperationService, OperationService>();
         }
     }
 }
