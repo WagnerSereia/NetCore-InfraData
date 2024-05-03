@@ -25,3 +25,5 @@ Camadas do projeto
 
   CrossCutting
    Implementação de injeção de dependencia nativa do NetCore
+## Parceiro
+Esse é um desenvolvimento de pesquisa e parceria com [ConnectionPharma](https://cpharma.com.br)
